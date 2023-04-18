@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+// Variables 
+$primary-color: #016BD7;
+$secondary-color: #9EE712;
+$black-color: #000;
+
+.btn-green{
+    background: $secondary-color;
+}
+.text-black{
+    color: #000;
+}
+.text-dark{
+    color: #000 !important;
+}
+.text-secondary-para{
+    color: #818181;
+    font-size: 1.1rem;
+}
+.fw-500{
+    font-weight: 500;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.pool-brothers{
+
+    &__hero{
+        background: url('/asset/images/header-image.png');
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+
+        @media screen and (max-width:768px) {
+            background: url('/asset/images/header-image.png');
+            background-size: cover;
+            background-position: -600px;
+            background-repeat: no-repeat;
+        }
+
+        .rating{
+            img{
+                @media screen and (max-width:768px) {
+                    width: 120px;
+                    margin-bottom: .75rem;
+                }
+            }
+        }
+    }
+
+    &__metrics{
+        background-color: #ECECEC;
+        &_item{
+            font-weight: 500;
+            text-align: center;
+            margin-top: .75rem;
+            margin-bottom: .75rem;
+        }
+    }
+
+    &__resurfacing{
+        .col-md-12{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 15px;
+        }
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 15px;
+            border: none;
+            
+        }
+        .bulletlist{
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        
+            @media screen and (max-width:768px) {
+                width: 100%;
+                ;
+            }
+        }
+
+    }
+    &__primary_bg{
+        background: $primary-color;
+    }
+
+    &__approach{
+        background: url('/asset/images/pool-brothers-logo-k.png');
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 15px;
+            border: none;
+        }
+
+        &_badge{
+            background: url('/asset/images/pool-brothers-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__features{
+        background: $primary-color;
+
+    }
+
+    &__proof{
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            border: none;
+        }
+    }
+
+    &__peak_season{
+        background: #CA192A !important;
+        
+        .important {
+            font-size: 5.5rem;
+            line-height: 1;
+    
+            @media screen and (max-width:768px) {
+                font-size: 3.25rem;
+            }
+        }
+        &_des{
+            font-size: 1.4rem;
+            font-weight: 700;
+            @media screen and (max-width:768px) {
+                    font-size: 1.5rem;
+                }
+        }
+    }
+
+    &__bookings{
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            border: none;
+            .booking_inner{
+                border: 6px dashed #CA192A;
+                filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
+                border-radius: 24px;
+            }
+        }
+    }
+
+    &__bonus{
+        &_title{
+            color: $secondary-color;
+            font-size: 5.2rem;
+            line-height: 1;
+            font-weight: 800;
+            @media screen and (max-width:768px) {
+                font-size: 3.5rem;
+            }
+        }
+        &_freetitle{
+            color: #000;
+            font-size: 9rem;
+            line-height: 1;
+            font-weight: 800;
+        
+            @media screen and (max-width:768px) {
+                font-size: 4rem;
+            }
+        }
+
+        &_des {
+            font-size: 2.15rem;
+            font-weight: 700;
+
+            @media screen and (max-width:768px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        .card{
+            background: $secondary-color;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+
+            .btn-black{
+                background: #000;
+                color: $secondary-color;
+                font-weight: 800;
+                font-size: 2.25rem;
+                border-radius: 1rem;
+                @media screen and (max-width:768px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .btn-white {
+                background: #fff;
+                color: #000;
+                font-weight: 800;
+                font-size: 1.5rem;
+                border-radius: 1rem;
+                @media screen and (max-width:768px) {
+                        font-size: 1.5rem;
+                    }
+            }
+        }
+    }
+
+}
+.bg-danger{
+    
+}
+
+.navbar{
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12.5px);
+
+    .nav-item{
+        .nav-link{
+            color:black;
+            font-weight: 500;
+        }
+    }
+    .btn-dark{
+        margin-left: 1rem;
+        background: #000;
+        border-radius: 50rem;
+        color: #fff !important;
+        font-weight: 600;
+        span{
+            color: rgba($color: #fff, $alpha: .8) !important;
+            font-weight: 500;
+        }
+    }
+}
