@@ -259,4 +259,27 @@ body {
   color: rgba(255, 255, 255, 0.8) !important;
   font-weight: 500;
 }
+
+@media screen and (max-width: 767px) {
+  #pb-metrics_mobile {
+    display: block;
+  }
+  #pb-metrics_mobile img {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+  }
+  #pb-metrics_desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #pb-metrics_mobile {
+    display: none;
+  }
+  #pb-metrics_desktop {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -243,3 +243,28 @@ body{
         }
     }
 }
+
+@media screen and (max-width:767px) {
+    #pb-metrics_mobile{
+        display: block;
+        img{
+            width: 200px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    #pb-metrics_desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #pb-metrics_mobile {
+        display: none;
+    }
+
+    #pb-metrics_desktop {
+        display: block;
+    }
+}
