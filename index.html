@@ -18,6 +18,16 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+    <style>
+        .modal {
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.75);
+        }
+
+        .modal-contnet {
+            border-radius: 1rem;
+        }
+    </style>
 
 </head>
 
@@ -117,7 +127,7 @@
                             </div>
 
                             <div class="py-4">
-                                <a href="https://sales.poolbrothers.com.au/contact-page"
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                                     class="btn btn-green btn-lg fw-bolder text-uppercase btn-lg fs-3">
                                     Get A Price & Start Resurfacing Now
                                 </a>
@@ -372,7 +382,7 @@
                                 </div>
                                 <div class="col-md-7 text-center">
                                     <div class="py-4">
-                                        <a href="https://sales.poolbrothers.com.au/contact-page"
+                                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                                             class="btn btn-green btn-lg fw-bolder text-uppercase btn-lg fs-3">
                                             Get A Price & Start Resurfacing Now
                                         </a>
@@ -713,7 +723,7 @@
                                             </div>
 
                                             <div class="">
-                                                <a href="https://sales.poolbrothers.com.au/contact-page"
+                                                <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                                                     class="btn btn-lg btn-black px-4">
                                                     Get A Price & Start Resurfacing Now
                                                 </a>
@@ -737,6 +747,30 @@
         </div>
 
     </section>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header pb-0 border-0">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="pt-2 text-center">
+                        <h3 class="fw-bold">Almost There. We Just Need A Few Details...</h3>
+                    </div>
+                    <iframe src="https://link.offgriddigital.com.au/widget/survey/qRezeBlf8QQPzL3ncOqB"
+                        style="border:none;width:100%;" scrolling="no" id="qRezeBlf8QQPzL3ncOqB"
+                        title="Pool-Brother-LP-Survey"></iframe>
+                    <script src="https://link.offgriddigital.com.au/js/form_embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
