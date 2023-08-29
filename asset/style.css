@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .pool-brothers__hero {
@@ -30,7 +30,6 @@ body {
   background-position: left;
   background-repeat: no-repeat;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__hero {
     background: url("/asset/images/header-image.png");
@@ -39,175 +38,140 @@ body {
     background-repeat: no-repeat;
   }
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__hero .rating img {
     width: 120px;
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 }
-
 .pool-brothers__metrics {
   background-color: #ECECEC;
 }
-
 .pool-brothers__metrics_item {
   font-weight: 500;
   text-align: center;
-  margin-top: .75rem;
-  margin-bottom: .75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-
 .pool-brothers__resurfacing .col-md-12 {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
 }
-
 .pool-brothers__resurfacing .card {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
   border: none;
 }
-
 .pool-brothers__resurfacing .bulletlist {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__resurfacing .bulletlist {
     width: 100%;
   }
 }
-
 .pool-brothers__primary_bg {
   background: #016BD7;
 }
-
 .pool-brothers__approach {
   background: url("/asset/images/pool-brothers-logo-k.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
 }
-
 .pool-brothers__approach .card {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
   border: none;
 }
-
 .pool-brothers__approach_badge {
   background: url("/asset/images/pool-brothers-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .pool-brothers__features {
   background: #016BD7;
 }
-
 .pool-brothers__proof .card {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 24px;
   border: none;
 }
-
 .pool-brothers__peak_season {
   background: #CA192A !important;
 }
-
 .pool-brothers__peak_season .important {
   font-size: 5.5rem;
   line-height: 1;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__peak_season .important {
     font-size: 3.25rem;
   }
 }
-
 .pool-brothers__peak_season_des {
   font-size: 1.4rem;
   font-weight: 700;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__peak_season_des {
     font-size: 1.5rem;
   }
 }
-
 .pool-brothers__bookings .card {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 24px;
   border: none;
 }
-
 .pool-brothers__bookings .card .booking_inner {
   border: 6px dashed #CA192A;
-  -webkit-filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
-          filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
+  filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
   border-radius: 24px;
 }
-
 .pool-brothers__bonus_title {
   color: #9EE712;
   font-size: 5.2rem;
   line-height: 1;
   font-weight: 800;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__bonus_title {
     font-size: 3.5rem;
   }
 }
-
 .pool-brothers__bonus_freetitle {
   color: #000;
   font-size: 9rem;
   line-height: 1;
   font-weight: 800;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__bonus_freetitle {
     font-size: 4rem;
   }
 }
-
 .pool-brothers__bonus_des {
   font-size: 2.15rem;
   font-weight: 700;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__bonus_des {
     font-size: 1.5rem;
   }
 }
-
 .pool-brothers__bonus .card {
   background: #9EE712;
-  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
   border-radius: 24px;
 }
-
 .pool-brothers__bonus .card .btn-black {
   background: #000;
   color: #9EE712;
@@ -215,13 +179,11 @@ body {
   font-size: 2.25rem;
   border-radius: 1rem;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__bonus .card .btn-black {
     font-size: 1.5rem;
   }
 }
-
 .pool-brothers__bonus .card .btn-white {
   background: #fff;
   color: #000;
@@ -229,7 +191,6 @@ body {
   font-size: 1.5rem;
   border-radius: 1rem;
 }
-
 @media screen and (max-width: 768px) {
   .pool-brothers__bonus .card .btn-white {
     font-size: 1.5rem;
@@ -241,12 +202,10 @@ body {
   -webkit-backdrop-filter: blur(12.5px);
           backdrop-filter: blur(12.5px);
 }
-
 .navbar .nav-item .nav-link {
   color: black;
   font-weight: 500;
 }
-
 .navbar .btn-dark {
   margin-left: 1rem;
   background: #000;
@@ -254,7 +213,6 @@ body {
   color: #fff !important;
   font-weight: 600;
 }
-
 .navbar .btn-dark span {
   color: rgba(255, 255, 255, 0.8) !important;
   font-weight: 500;
@@ -273,7 +231,6 @@ body {
     display: none;
   }
 }
-
 @media screen and (min-width: 768px) {
   #pb-metrics_mobile {
     display: none;
@@ -281,5 +238,4 @@ body {
   #pb-metrics_desktop {
     display: block;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
